@@ -1,7 +1,8 @@
-[ ![Download](https://api.bintray.com/packages/nonews/maven/norecyclerviewadapter/images/download.svg) ](https://bintray.com/nonews/maven/norecyclerviewadapter/_latestVersion)
-[![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=null)
+
 
 # NoRecyclerViewAdapter
+[ ![Download](https://api.bintray.com/packages/nonews/maven/norecyclerviewadapter/images/download.svg) ](https://bintray.com/nonews/maven/norecyclerviewadapter/_latestVersion)
+[![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=null)
 
 Simple base adapter for recyclerView with custom Freemarker templates.
 
