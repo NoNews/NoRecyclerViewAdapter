@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <template
-    name="MosdroidRecyclerView"
+    name="RecyclerView adapter"
     description="Create a new RecyclerView Adapter"
     format="4"
     minApi="15"

@@ -3,8 +3,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import ${packageName}.R;
+import ru.alexbykov.norecyclerviewadapter;
 
-public class ${adapterClassName} extends BaseRecyclerViewAdapter<String, ${adapterClassName}.${adapterViewHolderClassName}> {
+public class ${adapterClassName} extends NoRecyclerViewAdapter<String, ${adapterClassName}.${adapterViewHolderClassName}> {
 
     private static final int LAYOUT = R.layout.${adapterItemLayoutName};
 

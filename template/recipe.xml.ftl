@@ -12,7 +12,7 @@
 
     <!-- Копирование с использованием Freemarker (откуда/куда) * -->
     <instantiate from="jvm/RecyclerViewAdapter.java.ftl"
-                 to="${escapeXmlAttribute(srcOut)}/adapters/${adapterClassName}.java"/>
+                 to="${escapeXmlAttribute(srcOut)}/${adapterClassName}.java"/>
 
 
     <!-- После копирования, файл будет открыт в Android Studio-->
