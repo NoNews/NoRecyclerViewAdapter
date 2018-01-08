@@ -6,6 +6,9 @@
 
 Simple base adapter for `RecyclerView` with [custom Freemarker template](https://github.com/NoNews/NoRecyclerViewAdapter/tree/master/template), which allow create adapter with `LAYOUT` item and `ViewHolder` for one click.
 
+The library will adhere to the rule:
+Only the most necessary methods and the most simple API.
+
 ### Gradle
 
 Beginning with Gradle 3 `compile` is deprecated.
