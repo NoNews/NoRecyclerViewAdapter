@@ -4,7 +4,7 @@
 [ ![Download](https://api.bintray.com/packages/nonews/maven/norecyclerviewadapter/images/download.svg) ](https://bintray.com/nonews/maven/norecyclerviewadapter/_latestVersion)
 [![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=null)
 
-Simple base adapter for recyclerView with custom Freemarker templates.
+Simple base adapter for `RecyclerView` with [custom Freemarker template](https://github.com/NoNews/NoRecyclerViewAdapter/tree/master/template), which allow create adapter with `LAYOUT` item and `ViewHolder` for one click.
 
 ### Gradle
 
