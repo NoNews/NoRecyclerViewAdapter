@@ -48,10 +48,11 @@ implementation 'ru.alexbykov:norecyclerviewadapter:0.0.1'
 ```java
    adapter.add(item);
    adapter.add(item, position);
+   adapter.addItems(items);
    adapter.remove(position);
    adapter.clear();
-   adapter.addItems(items);
    adapter.getItem(position);
+   adapter.getItems();
 ```
 
 
