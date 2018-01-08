@@ -1,4 +1,4 @@
-package com.example.alexbykov.norecyclerviewadapter;
+package norecyclerviewadaptersample.alexbykov.ru.myapplication;
 
 import org.junit.Test;
 

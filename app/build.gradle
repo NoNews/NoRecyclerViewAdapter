@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "27.0.1"
     defaultConfig {
-        applicationId "com.example.alexbykov.norecyclerviewadapter"
+        applicationId "norecyclerviewadaptersample.alexbykov.ru.myapplication"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
