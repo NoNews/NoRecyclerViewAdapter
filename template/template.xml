@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<template
+    name="MosdroidRecyclerView"
+    description="Create a new RecyclerView Adapter"
+    format="4"
+    minApi="15"
+    minBuildApi="15"
+    revision="1"
+  >
+
+
+    <!-- it's deprecated now. -->
+
+    <dependency name="android-support-v4" revision="8"/> -->
+
+        <formfactor value="Mobile" />
+        <category value="NoNews"/>
+
+
+    <!-- <parameter
+      id="language"
+      name="Select language"
+      type="enum"
+      default="languageKotlin"
+      help="Select Java or Kotlin">
+
+    <option id="languageKotlin">Kotlin</option>
+    <option id="languageJava">Java</option>
+
+  </parameter> -->
+
+
+    <parameter
+      id="adapterClassName"
+      name="Adapter name"
+      type="string"
+      help="The name of the Adapter class"
+      default="BlankAdapter"
+      constraints="class|nonempty|unique"
+     />
+
+     <parameter
+        id="adapterViewHolderClassName"
+        name="Adapter ViewHolder"
+        type="string"
+        help="The name of the ViewHolder class"
+        default="ViewHolder"
+        suggest="${adapterClassName?replace('Adapter','','i')}ViewHolder"
+        constraints="class|nonempty|unique"
+     />
+
+
+
+     <parameter
+       id="adapterItemLayoutName"
+       name="Adapter Layout item"
+       type="string"
+       suggest="item_${classToResource(adapterViewHolderClassName)}"
+       constraints="class|nonempty|unique"
+       default="item"
+       help="The name of the ViewHolder class"
+     />
+
+     <parameter
+       id="isGetItemsCountOvveride"
+       name="Ovveride method getItemCount()"
+       type="boolean"
+       help="Check it if you plan to ovveride method getItemCount()"
+     />
+
+     <parameter
+       id="isGetItemViewTypeOvveride"
+       name="Ovveride method getItemsViewType()"
+       type="boolean"
+       help="Check it if you plan to ovveride method getItemsViewType()"
+     />
+
+
+     <parameter
+       id="isDependencyNeeded"
+       name="Implement RecyclerView dependency"
+       type="boolean"
+       help="Check it if need to implement recyclerView dependency"
+     />
+
+
+
+    <!-- Картинка шаблона -->
+    <thumbs>
+        <thumb>templates_adapter.png</thumb>
+    </thumbs>
+
+    <!-- Указываем файл с константами -->
+    <globals file="globals.xml.ftl"/>
+
+    <!-- Указываем исполняемый файл -->
+    <execute file="recipe.xml.ftl"/>
+
+</template>
