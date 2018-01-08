@@ -97,7 +97,7 @@ public abstract class NoRecyclerViewAdapter<M, VH extends RecyclerView.ViewHolde
     /**
      * This method add items to the end of adapter
      *
-     * @param items
+     * @param items which you want to add
      */
     public void addItems(@NonNull List<M> items) {
         this.items.addAll(items);
