@@ -1,0 +1,1 @@
+# Freemarker template for NoRecyclerViewAdapter
