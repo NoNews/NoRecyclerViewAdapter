@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NoRecyclerViewAdapterSample</string>
+    <string name="add_all">Add all</string>
+    <string name="remove_all">Remove all</string>
+    <string name="add_one">Add one</string>
+    <string name="remove_one">Remove one</string>
 </resources>
