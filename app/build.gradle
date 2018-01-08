@@ -2,9 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    buildToolsVersion "27.0.1"
     defaultConfig {
-        applicationId "com.example.alexbykov.recyclerviewtestselection"
+        applicationId "com.example.alexbykov.norecyclerviewadapter"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -19,8 +19,6 @@ android {
     }
 }
 
-ext.versionMaterial = '26.1.0'
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
@@ -29,11 +27,4 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
-    compile "com.android.support:design:$versionMaterial"
-    compile "com.android.support:recyclerview-v7:$versionMaterial"
-    compile "com.android.support:appcompat-v7:$versionMaterial"
-    compile "com.android.support:support-v4:$versionMaterial"
-    compile "com.android.support:cardview-v7:$versionMaterial"
-//    implementation "com.terrakok.phonematter:phonematter:1.0@aar"
 }

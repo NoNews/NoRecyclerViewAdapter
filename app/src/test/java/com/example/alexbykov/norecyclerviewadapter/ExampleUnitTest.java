@@ -1,4 +1,4 @@
-package com.example.alexbykov.recyclerviewtestselection;
+package com.example.alexbykov.norecyclerviewadapter;
 
 import org.junit.Test;
 

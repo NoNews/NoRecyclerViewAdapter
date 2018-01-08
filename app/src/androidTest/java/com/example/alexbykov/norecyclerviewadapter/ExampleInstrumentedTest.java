@@ -1,4 +1,4 @@
-package com.example.alexbykov.recyclerviewtestselection;
+package com.example.alexbykov.norecyclerviewadapter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.alexbykov.recyclerviewtestselection", appContext.getPackageName());
+        assertEquals("com.example.alexbykov.norecyclerviewadapter", appContext.getPackageName());
     }
 }
