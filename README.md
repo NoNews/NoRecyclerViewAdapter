@@ -57,9 +57,8 @@ implementation 'ru.alexbykov:norecyclerviewadapter:0.0.1'
 
 #### Roadmap
 
-1.
-2.
-3.
+1. DiffUtils support
+
 
 #### Contributing
 
