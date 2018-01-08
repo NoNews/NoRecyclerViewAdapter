@@ -1,4 +1,7 @@
-#NoRecyclerViewAdapter
+[ ![Download](https://api.bintray.com/packages/nonews/maven/norecyclerviewadapter/images/download.svg) ](https://bintray.com/nonews/maven/norecyclerviewadapter/_latestVersion)
+[![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=null)
+
+# NoRecyclerViewAdapter
 
 Simple base adapter for recyclerView with custom Freemarker templates.
 
@@ -7,14 +10,13 @@ Simple base adapter for recyclerView with custom Freemarker templates.
 Beginning with Gradle 3 `compile` is deprecated.
 
 ```
-implementation 'ru.alexbykov:nopaginate:0.4.4'
+implementation 'ru.alexbykov:norecyclerviewadapter:0.0.1'
 ```
 
 ### Install
 ```java
  public class SampleRecyclerViewAdapter extends NoRecyclerViewAdapter<String, SampleRecyclerViewAdapter.ViewHolder> {
-
-
+ 
      private static final int LAYOUT = R.layout.item_sample;
 
      @Override
