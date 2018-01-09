@@ -1,9 +1,9 @@
-package ${packageName}.adapters;
+package ${packageName};
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import ${packageName}.R;
-import ru.alexbykov.norecyclerviewadapter;
+import ru.alexbykov.norecyclerviewadapter.NoRecyclerViewAdapter;
 
 public class ${adapterClassName} extends NoRecyclerViewAdapter<String, ${adapterClassName}.${adapterViewHolderClassName}> {
 

@@ -16,7 +16,7 @@
 
 
     <!-- После копирования, файл будет открыт в Android Studio-->
-    <open file="${escapeXmlAttribute(srcOut)}/adapters/${adapterClassName}.java"/>
+    <open file="${escapeXmlAttribute(srcOut)}/${adapterClassName}.java"/>
 
 
     <!-- Будет подключён дополнительный модуль через implementation в Android Studio 3.0
