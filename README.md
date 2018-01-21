@@ -14,7 +14,7 @@ Only the most necessary methods and the most simple API.
 Beginning with Gradle 3 `compile` is deprecated.
 
 ```
-implementation 'ru.alexbykov:norecyclerviewadapter:0.0.1'
+implementation 'ru.alexbykov:norecyclerviewadapter:0.0.2'
 ```
 
 ### Install
@@ -53,6 +53,7 @@ implementation 'ru.alexbykov:norecyclerviewadapter:0.0.1'
    adapter.add(item, position);
    adapter.addItems(items);
    adapter.remove(position);
+   adapter.remove(item);
    adapter.clear();
    adapter.getItem(position);
    adapter.getItems();
