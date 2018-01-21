@@ -41,7 +41,7 @@ dependencies {
 publish {
     groupId = 'ru.alexbykov'
     artifactId = 'norecyclerviewadapter'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = 'Base simple recycler view adapter'
     licences = ['Apache-2.0']
     website = 'https://github.com/NoNews/NoRecyclerViewAdapter'
